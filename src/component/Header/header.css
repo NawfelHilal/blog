@@ -1,0 +1,24 @@
+.header {
+    display: flex; /* Utilisez flexbox pour afficher les éléments sur une seule ligne */
+    align-items: center; /* Alignez les éléments verticalement au centre */
+    justify-content: space-between; /* Répartissez l'espace horizontal entre les éléments */
+    padding: 10px 20px; /* Ajoutez de l'espacement autour des éléments */
+    background-color: blue; /* Ajoutez un arrière-plan pour l'en-tête */
+    color: white; /* Changez la couleur du texte */
+  }
+  
+  .logo img {
+    max-width: 100px; /* Définissez la largeur maximale du logo */
+  }
+  
+  .nav-list {
+    list-style: none; /* Supprimez les puces de la liste */
+    display: flex; /* Utilisez flexbox pour aligner les éléments de la liste horizontalement */
+    gap: 20px; /* Ajoutez de l'espace entre les éléments de la liste */
+  }
+  
+  .nav-item a {
+    text-decoration: none; /* Supprimez la décoration des liens */
+    color: white; /* Changez la couleur du texte des liens */
+  }
+  
